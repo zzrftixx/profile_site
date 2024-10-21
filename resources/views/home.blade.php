@@ -11,7 +11,17 @@
     @vite('resources/css/app.css')
 
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.cdnfonts.com/css/anurati" rel="stylesheet"> -->
     <link rel="stylesheet" href="css/index.350e2433.css" />
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/anurati');
+
+        .your {
+            font-family: 'Anurati', sans-serif;
+            font-size: 1.3rem;
+        }
+    </style>
+
 </head>
 
 <body class="bg-white dark:bg-gray-900 astro-FLTEP2YP">
@@ -23,11 +33,15 @@
                         class="hidden peer astro-UY3JLCBK">
                     <div class="relative z-20 w-full flex justify-between lg:w-max md:px-0 astro-UY3JLCBK">
                         <a href="#" aria-label="logo" class="flex space-x-2 items-center astro-UY3JLCBK">
-                            <div aria-hidden="true" class="flex space-x-1 astro-UY3JLCBK">
-                                <div class="h-4 w-4 rounded-full bg-gray-900 dark:bg-white astro-UY3JLCBK"></div>
-                                <div class="h-6 w-2 bg-primary astro-UY3JLCBK"></div>
-                            </div>
-                            <span class="text-2xl font-bold text-gray-900 dark:text-white astro-UY3JLCBK">andraariesfi</span>
+                            <!-- //---=LOGO=---// -->
+                            <!-- <div aria-hidden="true" class="flex space-x-1 astro-UY3JLCBK">
+                                 <div class="h-4 w-4 rounded-full bg-gray-900 dark:bg-white astro-UY3JLCBK"></div>
+                                 <div class="h-6 w-2 bg-primary astro-UY3JLCBK"></div>
+                                </div> -->
+                            <!-- //---=LOGO=---// -->
+
+
+                            <span class="your text-2xl font-bold text-gray-900 dark:text-white astro-UY3JLCBK">YBW</span>
                         </a>
 
                         <div class="relative flex items-center lg:hidden max-h-10 astro-UY3JLCBK">
